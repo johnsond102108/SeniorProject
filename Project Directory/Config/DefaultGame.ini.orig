@@ -1,0 +1,9 @@
+[/Script/EngineSettings.GeneralProjectSettings]
+ProjectID=5D9A127A48AB4A7A51B77F9EFDE3983A
+ProjectName=Senior Project Demo 1
+bUseBorderlessWindow=True
+
+[StartupActions]
+bAddPacks=True
+InsertPack=(PackSource="StarterContent.upack",PackName="StarterContent")
+
