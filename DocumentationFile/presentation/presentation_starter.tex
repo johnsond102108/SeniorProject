@@ -1,0 +1,170 @@
+\documentclass[xcolor=table]{beamer}
+
+\usetheme[secheader,compress]{Madrid} %Primary theme
+
+\usepackage{verbatim}
+\usepackage{graphicx}
+
+%% UTM Colors
+\definecolor{UTMblue}{rgb}{0.043137, 0.137254, 0.254901}
+\definecolor{UTMorange}{rgb}{1.0, 0.509803, 0}
+
+\setbeamercolor{palette primary}{bg=UTMblue,fg=white}
+\setbeamercolor{palette secondary}{bg=UTMblue,fg=white}
+\setbeamercolor{palette tertiary}{bg=UTMblue,fg=white}
+\setbeamercolor{palette quaternary}{bg=UTMblue,fg=white}
+\setbeamercolor{structure}{fg=UTMblue} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=UTMblue} % TOC sections
+\setbeamercolor{title}{fg=UTMorange}
+
+\setbeamercolor{subsection in head/foot}{bg=UTMorange,fg=white}
+
+%%%%%%%%%%% BEGIN MACROS %%%%%%%%%%%%%%%%%%
+% frameT: Frame with title
+\newcommand{\frameT}[2]{\frame{\frametitle{#1} #2}}
+
+% frameF: Fragile frame with title
+\newcommand{\frameF}[2]{
+  \begin{frame}[fragile]
+    \frametitle{#1}
+    #2
+  \end{frame}
+}
+
+% frameTop: Frame aligned t the top
+\newcommand{\frameTop}[2]{\frame[t]{\frametitle{#1} #2}}
+
+
+\newcommand{\tab}{\hspace{1cm}}
+
+\newcommand{\spaceor}{\hspace{5pt} \textbf{or} \hspace{5pt}}
+
+%%%%%%%%%%% END MACROS %%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+\title{Bullet Blitz}
+
+\author{Victor Gasior, Blade Johnson, Andrew Newbill ,and Lucky Woods}
+\institute{UT-Martin}
+\date{\today}
+
+%%%%%%%%%%% BEGIN TITLE %%%%%%%%%%%%%%%%%%
+\frame{\titlepage}
+
+ %\section{Outline}
+%%%%%%%%%%%% END TITLE  %%%%%%%%%%%%%%%%%%
+
+
+\section{Introduction}
+\frameT{Motivation} {
+  List some of your motivations here!
+  \bigskip
+  \begin{enumerate}
+    \item FPS shooter game with inspiration from the game Quake
+      \bigskip
+    \item The idea of the game is to have players be rodent like animals like mice fighting each other with different kinds of weapons and jumping around for more movement.
+  \end{enumerate}
+
+  \bigskip
+  
+  \emph{Main inspiration was to make an arena shooting game like Quake.
+} \emph{The animal part was part of a group joke.}.
+}
+
+\frameT{Project Goals} {
+  We are wanting to make the base game with the basic gameplay working along with network connections for at least one other player to connect with the same server and a couple different maps and weapons. Goals are more weapons, more players, and possibly more unique creatures. AI enemies we will wait and see on.
+}
+
+\section{Sections--a useful organizational tool.}
+
+\frameT{}{
+}
+
+
+
+\begin{frame}[fragile]
+\frametitle{Family Tree Knowledge Base}
+Facts:
+\begin{verbatim}
+Verbatim is a great way of enumerating code/algorithmic ideas.
+\end{verbatim}
+\end{frame}
+
+
+\frameT{How to include images} {
+  %% \includegraphics[width=.7\linewidth]{figures/image.pdf}
+}
+
+
+\begin{frame}[fragile]
+  \frametitle{Social Network Graph}
+  \begin{figure}[ht]
+    \begin{minipage}[b]{0.53\linewidth}
+      \centering
+      Minipages are a great way to
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[b]{0.4\linewidth}
+      \centering
+      Line up side-by-side content.
+
+    \end{minipage}
+  \end{figure}
+  
+\end{frame}
+
+
+\frameT{Results} {
+  Describe any results of your work here.
+
+  \bigskip
+
+  Things that worked?
+
+  \bigskip
+
+  Things that didn't work?
+}
+
+\frameT{Conclusions} {
+  Some bullet points here to wrap things up.
+}
+
+\frameT{Any Questions?} {
+  
+  \begin{center}
+    Questions?
+  \end{center}
+  \begin{center}
+    Comments?
+  \end{center}
+
+  \bigskip
+
+  Further project/author information:
+  \begin{center}
+    \includegraphics[width=4cm]{figures/6AnLddq.png}
+  \end{center}
+}
+
+%\frameF{fragile test} {
+%}
+
+%% \frameF{Prolog Family Tree} {
+%% \begin{verbatim}
+%% hello
+%% \end{verbatim}
+
+
+
+%% }
+
+%Empty Page
+%\frameT{Frame 1}{
+%}  
+
+
+\end{document}
