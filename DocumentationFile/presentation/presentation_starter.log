@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  4 SEP 2023 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  11 SEP 2023 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,7 +1143,7 @@ Package rerunfilecheck Info: File `presentation_starter.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  21984 strings out of 478659
- 438195 string characters out of 2845921
+ 438240 string characters out of 2845921
  689891 words of memory out of 3000000
  39608 multiletter control sequences out of 15000+600000
  405766 words of font info for 35 fonts, out of 8000000 for 9000
@@ -1155,7 +1155,7 @@ fonts/cm/cmss12.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/meggo/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on presentation_starter.pdf (10 pages, 135057 bytes).
+Output written on presentation_starter.pdf (10 pages, 134943 bytes).
 PDF statistics:
  366 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
