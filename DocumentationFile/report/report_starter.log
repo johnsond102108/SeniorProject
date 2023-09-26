@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  18 SEP 2023 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  25 SEP 2023 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,7 +1073,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1
-91.
+87.
 
 (C:\Users\meggo\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -1083,11 +1083,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <8> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 195.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 191.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 191.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 191.
 
 [1{C:/Users/meggo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1098,39 +1098,39 @@ Non-PDF special ignored!
 ]
 
 LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
-e 344.
+e 340.
 
 
 LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
-e 359.
+e 355.
 
 
 LaTeX Warning: Reference `fig:figure2' on page \thepage  undefined on input lin
-e 362.
+e 358.
 
 [2]
 LaTeX Font Info:    Trying to load font information for T1+txr on input line 41
-5.
+1.
  (C:\Users\meggo\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 4
-15.
+11.
 
 (C:\Users\meggo\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 1057) in paragraph at lines 447--451
+Underfull \hbox (badness 1057) in paragraph at lines 443--447
 \T1/ptm/m/n/10 (+20) For more in-for-ma-tion and links to in-struc-tions and re
 -
  []
 
 
 LaTeX Warning: Citation `unrealweb' on page \thepage  undefined on input line 5
-30.
+26.
 
 
-LaTeX Warning: Citation `smit54' on page \thepage  undefined on input line 530.
+LaTeX Warning: Citation `smit54' on page \thepage  undefined on input line 526.
 
 
 No file report_starter.bbl.
@@ -1142,23 +1142,17 @@ Package balance Warning: You have called \balance in second column
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `report_starter.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report_starter.out':
-(rerunfilecheck)             Before: EBF2D223C4BC3AE3BF08443319410919;3579
-(rerunfilecheck)             After:  C0E8091EB4DB55E2D1E9F29122BA5C00;3557.
+Package rerunfilecheck Info: File `report_starter.out' has not changed.
+(rerunfilecheck)             Checksum: C0E8091EB4DB55E2D1E9F29122BA5C00;3557.
  ) 
 Here is how much of TeX's memory you used:
- 24509 strings out of 478659
- 450670 string characters out of 2845921
- 748457 words of memory out of 3000000
+ 24506 strings out of 478659
+ 450646 string characters out of 2845921
+ 748307 words of memory out of 3000000
  41871 multiletter control sequences out of 15000+600000
- 470213 words of font info for 264 fonts, out of 8000000 for 9000
+ 470083 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,94p,1013b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,10n,94p,1030b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
@@ -1170,7 +1164,7 @@ w/helvetic/uhvb8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1
 ype1/urw/times/utmb8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on report_starter.pdf (3 pages, 132641 bytes).
+Output written on report_starter.pdf (3 pages, 131583 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
