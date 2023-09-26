@@ -78,9 +78,20 @@
   We are wanting to make the base game with the basic gameplay working along with network connections for at least one other player to connect with the same server and a couple different maps and weapons. Goals are more weapons, more players, and possibly more unique creatures. AI enemies we will wait and see on.
 }
 
-\section{Sections--a useful organizational tool.}
+\section{Tools}
+
+\frameT{Map Creation Pipeline} {
+	\begin{center}
+  		\includegraphics[width=.8\linewidth]{figures/map_pipeline.png}
+  	\end{center}
+  	
+  	The maps were initially made in Ultimate Doom Builder (UDB), a program meant to make Doom 2 (1994) maps. UDB supports exporting as a 3D model, however it is not properly set up for smooth importing into the Unreal Engine. In order to fix this, we imported the .obj file exported by UDB into Blender, where we then exported from Blender as a FBX file. Finally the FBX file can be imported to UE as a model.
+}
 
 \frameT{}{
+	\includegraphics[height=.25\linewidth]{figures/test_map_doom.png}
+	\includegraphics[height=.25\linewidth]{figures/test_map_blender.png}
+	\includegraphics[height=.25\linewidth]{figures/test_map_unreal.png}
 }
 
 
@@ -92,11 +103,6 @@ Facts:
 Verbatim is a great way of enumerating code/algorithmic ideas.
 \end{verbatim}
 \end{frame}
-
-
-\frameT{How to include images} {
-  %% \includegraphics[width=.7\linewidth]{figures/image.pdf}
-}
 
 
 \begin{frame}[fragile]
