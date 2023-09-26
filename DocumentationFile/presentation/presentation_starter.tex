@@ -47,7 +47,7 @@
 
 \title{Bullet Blitz}
 
-\author{Victor Gasior, Blade Johnson, Andrew Newbill ,and Lucky Woods}
+\author{Victor Gasior, Blade Johnson, Andrew Newbill, and Lucky Woods}
 \institute{UT-Martin}
 \date{\today}
 
@@ -70,12 +70,29 @@
 
   \bigskip
   
-  \emph{Main inspiration was to make an arena shooting game like Quake.
-} \emph{The animal part was part of a group joke.}.
+  \emph{ 
+} \emph{ }.
+}
+
+\frameT{Technology} {
+  Technology used:
+  \bigskip
+  \begin{enumerate}
+    \item Unreal Engine 5: Used for development of the game.
+      \bigskip
+    \item Ultimate Doom Builder: Used for development of the maps.
+    \bigskip
+    \item Blender: Used for the making of the weapons in the game. 
+  \end{enumerate}
+
+  \bigskip
+  
+  \emph{ 
+} \emph{ }.
 }
 
 \frameT{Project Goals} {
-  We are wanting to make the base game with the basic gameplay working along with network connections for at least one other player to connect with the same server and a couple different maps and weapons. Goals are more weapons, more players, and possibly more unique creatures. AI enemies we will wait and see on.
+  We are wanting to make the base game with the basic gameplay working along with network connections for at least one other player to connect with the same server and a couple different maps and weapons. Goals are more weapons, more players, and possibly more unique creatures. AI enemies we are wanting to implement as well.
 }
 
 \section{Tools}
@@ -88,13 +105,17 @@
   	The maps were initially made in Ultimate Doom Builder (UDB), a program meant to make Doom 2 (1994) maps. UDB supports exporting as a 3D model, however it is not properly set up for smooth importing into the Unreal Engine. In order to fix this, we imported the .obj file exported by UDB into Blender, where we then exported from Blender as a FBX file. Finally the FBX file can be imported to UE as a model.
 }
 
-\frameT{}{
+\frameT{Test Maps}{
 	\includegraphics[height=.25\linewidth]{figures/test_map_doom.png}
 	\includegraphics[height=.25\linewidth]{figures/test_map_blender.png}
 	\includegraphics[height=.25\linewidth]{figures/test_map_unreal.png}
 }
 
-
+\frameT{Demo}{
+Demo of the player in the game environment.
+	\includegraphics[height=.25\linewidth]{figures/TestDemoGame.png}
+	\includegraphics[height=.25\linewidth]{figures/TestDemoGame2.png}
+}
 
 \begin{frame}[fragile]
 \frametitle{Family Tree Knowledge Base}
@@ -103,6 +124,11 @@ Facts:
 Verbatim is a great way of enumerating code/algorithmic ideas.
 \end{verbatim}
 \end{frame}
+
+
+\frameT{How to include images} {
+  %% \includegraphics[width=.7\linewidth]{figures/image.pdf}
+}
 
 
 \begin{frame}[fragile]
@@ -150,10 +176,17 @@ Verbatim is a great way of enumerating code/algorithmic ideas.
 
   \bigskip
 
-  Further project/author information:
-  \begin{center}
-    \includegraphics[width=4cm]{figures/6AnLddq.png}
-  \end{center}
+  Contact Info:
+\begin{enumerate}
+    \item Victor Gasior: vicagasi@ut.utm.edu
+      \bigskip
+    \item Blade Johnson: davbjohn@ut.utm.edu
+    \bigskip
+    \item Andrew Newbill: andjnewb@ut.utm.edu
+     \bigskip
+    \item Lucky Woods: lucjwood@ut.utm.edu
+\end{enumerate}
+
 }
 
 %\frameF{fragile test} {
