@@ -39,6 +39,14 @@
 
 \newcommand{\spaceor}{\hspace{5pt} \textbf{or} \hspace{5pt}}
 
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{multimedia}
+\usepackage{hyperref}
+
+
+
 %%%%%%%%%%% END MACROS %%%%%%%%%%%%%%%%%%%%
 
 
@@ -57,42 +65,73 @@
  %\section{Outline}
 %%%%%%%%%%%% END TITLE  %%%%%%%%%%%%%%%%%%
 
-
 \section{Introduction}
 \frameT{Motivation} {
-  Background
+  Motivations:
   \bigskip
-  \begin{enumerate}
-    \item Enjoyment of video games such as Quake, Doom, and Unreal Tournament
+  \begin{itemize}
+  	\raggedright
+    \item An enjoyment of classic arena shooters
+    \begin{itemize}
+      \item Doom
+      \item Quake
+      \end{itemize}
       \bigskip
-    \item Movement mechanics are underutilized in most shooters
-  \end{enumerate}
+      
+    \item Movement is restricted in modern shooters
+  \end{itemize}
 
   \bigskip
   
   \emph{ 
 } \emph{ }.
 }
+
 
 \frameT{Technology} {
   Technology used:
   \bigskip
-  \begin{enumerate}
-    \item Unreal Engine 5: Used for development of the game.
-      \bigskip
-    \item Ultimate Doom Builder: Used for development of the maps.
+  \begin{itemize}
+    \item Unreal Engine 5
+    \begin{itemize}
+        \item Base engine for the game
+    \end{itemize}
     \bigskip
-    \item Blender: Used for the making of the weapons in the game. 
-  \end{enumerate}
-
-  \bigskip
+    \item Ultimate Doom Builder
+    \begin{itemize}
+      \item Map models
+    \end{itemize}
+    \bigskip
+    \item Blender
+    \begin{itemize}
+        \item Weapon models
+        \item Changing map file formats
+    \end{itemize}
+  \end{itemize}
   
-  \emph{ 
-} \emph{ }.
+  \bigskip
 }
 
+
 \frameT{Project Goals} {
-  We are wanting to make the base game with the basic gameplay working along with network connections for at least one other player to connect with the same server and a couple different maps and weapons. Goals are more weapons, more players, and possibly more unique movement for the players. 
+  Goals:
+  \bigskip
+  \begin{itemize}
+      \item Networking 
+      \begin{itemize}
+          \item Hit detection
+          \item Minor desync among clients
+      \end{itemize}
+      \bigskip
+      \item Multiple maps
+      \begin{itemize}
+          \item Works well with movement system
+      \end{itemize}
+      \bigskip
+      \item Multiple weapons
+  \end{itemize}
+  
+  \bigskip
 }
 
 \section{Tools}
@@ -102,68 +141,98 @@
   		\includegraphics[width=.8\linewidth]{figures/map_pipeline.png}
   	\end{center}
   	
-  	The maps were initially made in Ultimate Doom Builder (UDB), a program meant to make Doom 2 (1994) maps. UDB supports exporting as a 3D model, however it is not properly set up for smooth importing into the Unreal Engine. In order to fix this, we imported the .obj file exported by UDB into Blender, where we then exported from Blender as a FBX file. Finally the FBX file can be imported to UE as a model.
+  	\begin{multicols}{3}
+        \begin{itemize}
+        		\small
+            \item Made in Ultimate Doom Builder
+            \item Exported into an .obj file
+            \item Import the .obj file into Blender
+            \item Export as FBX file
+            \item FBX imported into Unreal
+            \item Unreal converts to a uasset model
+        \end{itemize}
+    \end{multicols}
 }
 
 \frameT{Test Maps}{
+\begin{center}
 	\includegraphics[height=.25\linewidth]{figures/test_map_doom.png}
 	\includegraphics[height=.25\linewidth]{figures/test_map_blender.png}
+ \end{center}
+ \begin{center}
 	\includegraphics[height=.25\linewidth]{figures/test_map_unreal.png}
+ \end{center}
 }
 
 \frameT{Demo}{
-Demo of the player in the game environment.
-	\includegraphics[height=.25\linewidth]{figures/TestDemoGame.png}
-	\includegraphics[height=.25\linewidth]{figures/TestDemoGame2.png}
-}
-
-\begin{frame}[fragile]
-\frametitle{Family Tree Knowledge Base}
-Facts:
-\begin{verbatim}
-Verbatim is a great way of enumerating code/algorithmic ideas.
-\end{verbatim}
-\end{frame}
-
-
-\frameT{How to include images} {
-  %% \includegraphics[width=.7\linewidth]{figures/image.pdf}
+%Demo of the player in the game environment.
+%	\includegraphics[height=.25\linewidth]{figures/TestDemoGame.png}
 }
 
 
-\begin{frame}[fragile]
-  \frametitle{Social Network Graph}
-  \begin{figure}[ht]
-    \begin{minipage}[b]{0.53\linewidth}
-      \centering
-      Minipages are a great way to
-    \end{minipage}
-    \hspace{0.5cm}
-    \begin{minipage}[b]{0.4\linewidth}
-      \centering
-      Line up side-by-side content.
-
-    \end{minipage}
-  \end{figure}
+%\Test Online Video!!!!
+%\frameT{Demo}{
+%\  Demo of the player in the game environment.
   
-\end{frame}
+%\  \bigskip
+  
+%\  \href{https://www.youtube.com/watch?v=B03EBcuClKs&ab_channel=JaxxonWoods}{Incase of Emergencies}
+%\}
 
 
-\frameT{Results} {
-  Describe any results of your work here.
 
-  \bigskip
 
-  Things that worked?
 
-  \bigskip
 
-  Things that didn't work?
-}
 
-\frameT{Conclusions} {
-  Some bullet points here to wrap things up.
-}
+
+%\begin{frame}[fragile]
+%\frametitle{Family Tree Knowledge Base}
+%Facts:
+%\begin{verbatim}
+%Verbatim is a great way of enumerating code/algorithmic ideas.
+%\end{verbatim}
+%\end{frame}
+%
+%
+%\frameT{How to include images} {
+%  %% \includegraphics[width=.7\linewidth]{figures/image.pdf}
+%}
+%
+%
+%\begin{frame}[fragile]
+%  \frametitle{Social Network Graph}
+%  \begin{figure}[ht]
+%    \begin{minipage}[b]{0.53\linewidth}
+%      \centering
+%      Minipages are a great way to
+%    \end{minipage}
+%    \hspace{0.5cm}
+%    \begin{minipage}[b]{0.4\linewidth}
+%      \centering
+%      Line up side-by-side content.
+%
+%    \end{minipage}
+%  \end{figure}
+%  
+%\end{frame}
+%
+%
+%\frameT{Results} {
+%  Describe any results of your work here.
+%
+%  \bigskip
+%
+%  Things that worked?
+%
+%  \bigskip
+%
+%  Things that didn't work?
+%}
+%
+%\frameT{Conclusions} {
+%  Some bullet points here to wrap things up.
+%}
 
 \frameT{Any Questions?} {
   
