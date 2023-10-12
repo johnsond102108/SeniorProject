@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  2 OCT 2023 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  11 OCT 2023 23:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,8 +1083,17 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 [1
 
 {C:/Users/meggo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 83--83
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 86--86
  [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+<figures/QuakeII.jpg, id=71, 1284.8pt x 722.7pt>
+File: figures/QuakeII.jpg Graphic file (type jpg)
+<use figures/QuakeII.jpg>
+Package pdftex.def Info: figures/QuakeII.jpg  used on input line 86.
+(pdftex.def)             Requested size: 273.83728pt x 154.0321pt.
+
+Overfull \vbox (65.85733pt too high) detected at line 86
  []
 
 
@@ -1094,11 +1103,16 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 
 [2
 
-]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 98--98
+ <./figures/QuakeII.jpg>]
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 105--105
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+<figures/LogoUsed.png, id=105, 1927.2pt x 476.78125pt>
+File: figures/LogoUsed.png Graphic file (type png)
+<use figures/LogoUsed.png>
+Package pdftex.def Info: figures/LogoUsed.png  used on input line 105.
+(pdftex.def)             Requested size: 273.83728pt x 67.7456pt.
 
 Overfull \hbox (89.86429pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1106,11 +1120,16 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 
 [3
 
-]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 110--110
+ <./figures/LogoUsed.png>]
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 120--120
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+<figures/TestDemoGame2.png, id=136, 1533.47906pt x 947.03813pt>
+File: figures/TestDemoGame2.png Graphic file (type png)
+<use figures/TestDemoGame2.png>
+Package pdftex.def Info: figures/TestDemoGame2.png  used on input line 120.
+(pdftex.def)             Requested size: 205.37926pt x 126.83308pt.
 
 Overfull \hbox (89.86429pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1118,15 +1137,15 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 
 [4
 
-]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 127--127
+ <./figures/TestDemoGame2.png>]
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 137--137
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<figures/map_pipeline.png, id=160, 1927.2pt x 476.78125pt>
+<figures/map_pipeline.png, id=166, 1927.2pt x 476.78125pt>
 File: figures/map_pipeline.png Graphic file (type png)
 <use figures/map_pipeline.png>
-Package pdftex.def Info: figures/map_pipeline.png  used on input line 127.
+Package pdftex.def Info: figures/map_pipeline.png  used on input line 137.
 (pdftex.def)             Requested size: 273.83728pt x 67.7456pt.
 
 Overfull \hbox (89.86429pt too wide) has occurred while \output is active
@@ -1136,24 +1155,24 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 [5
 
  <./figures/map_pipeline.png>]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 133--133
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 143--143
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<figures/test_map_doom.png, id=192, 1883.53688pt x 897.3525pt>
+<figures/test_map_doom.png, id=197, 1883.53688pt x 897.3525pt>
 File: figures/test_map_doom.png Graphic file (type png)
 <use figures/test_map_doom.png>
-Package pdftex.def Info: figures/test_map_doom.png  used on input line 133.
+Package pdftex.def Info: figures/test_map_doom.png  used on input line 143.
 (pdftex.def)             Requested size: 179.59889pt x 85.57382pt.
-<figures/test_map_blender.png, id=193, 1596.71532pt x 907.13907pt>
+<figures/test_map_blender.png, id=198, 1596.71532pt x 907.13907pt>
 File: figures/test_map_blender.png Graphic file (type png)
 <use figures/test_map_blender.png>
-Package pdftex.def Info: figures/test_map_blender.png  used on input line 133.
+Package pdftex.def Info: figures/test_map_blender.png  used on input line 143.
 (pdftex.def)             Requested size: 150.61752pt x 85.57382pt.
-<figures/test_map_unreal.png, id=194, 1536.49031pt x 945.5325pt>
+<figures/test_map_unreal.png, id=199, 1536.49031pt x 945.5325pt>
 File: figures/test_map_unreal.png Graphic file (type png)
 <use figures/test_map_unreal.png>
-Package pdftex.def Info: figures/test_map_unreal.png  used on input line 133.
+Package pdftex.def Info: figures/test_map_unreal.png  used on input line 143.
 (pdftex.def)             Requested size: 139.05183pt x 85.57382pt.
 
 Overfull \hbox (89.86429pt too wide) has occurred while \output is active
@@ -1164,20 +1183,15 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 
  <./figures/test_map_doom.png> <./figures/test_map_blender.png> <./figures/test
 _map_unreal.png>]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 139--139
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 148--148
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<figures/TestDemoGame.png, id=227, 1537.24312pt x 946.28531pt>
+<figures/TestDemoGame.png, id=232, 1537.24312pt x 946.28531pt>
 File: figures/TestDemoGame.png Graphic file (type png)
 <use figures/TestDemoGame.png>
-Package pdftex.def Info: figures/TestDemoGame.png  used on input line 139.
-(pdftex.def)             Requested size: 139.00269pt x 85.57382pt.
-<figures/TestDemoGame2.png, id=228, 1533.47906pt x 947.03813pt>
-File: figures/TestDemoGame2.png Graphic file (type png)
-<use figures/TestDemoGame2.png>
-Package pdftex.def Info: figures/TestDemoGame2.png  used on input line 139.
-(pdftex.def)             Requested size: 138.54533pt x 85.57382pt.
+Package pdftex.def Info: figures/TestDemoGame.png  used on input line 148.
+(pdftex.def)             Requested size: 250.20953pt x 154.03183pt.
 
 Overfull \hbox (89.86429pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1185,8 +1199,8 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 
 [7
 
- <./figures/TestDemoGame.png> <./figures/TestDemoGame2.png>]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 149--149
+ <./figures/TestDemoGame.png>]
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 157--157
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
@@ -1198,7 +1212,7 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
 [8
 
 ]
-Overfull \hbox (89.86429pt too wide) in paragraph at lines 228--228
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 167--167
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
@@ -1208,6 +1222,30 @@ Overfull \hbox (89.86429pt too wide) has occurred while \output is active
  []
 
 [9
+
+]
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 177--177
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (89.86429pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[10
+
+]
+Overfull \hbox (89.86429pt too wide) in paragraph at lines 265--265
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (89.86429pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[11
 
 ]
 \tf@nav=\write6
@@ -1224,10 +1262,10 @@ Package rerunfilecheck Info: File `presentation_starter.out' has not changed.
 (rerunfilecheck)             Checksum: 817589C61AD4E4950D09CF53812ABCA4;171.
  ) 
 Here is how much of TeX's memory you used:
- 22325 strings out of 478659
- 445554 string characters out of 2845921
- 697620 words of memory out of 3000000
- 39944 multiletter control sequences out of 15000+600000
+ 22348 strings out of 478659
+ 445947 string characters out of 2845921
+ 697622 words of memory out of 3000000
+ 39960 multiletter control sequences out of 15000+600000
  405903 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,122p,426b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1235,9 +1273,9 @@ Here is how much of TeX's memory you used:
 cmss10.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb>
-Output written on presentation_starter.pdf (9 pages, 12195974 bytes).
+Output written on presentation_starter.pdf (11 pages, 12620363 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  2 OCT 2023 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.4)  11 OCT 2023 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,7 +1073,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1
-88.
+96.
 
 (C:\Users\meggo\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -1083,11 +1083,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <8> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 192.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 200.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
 
 [1{C:/Users/meggo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1098,39 +1098,39 @@ Non-PDF special ignored!
 ]
 
 LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
-e 341.
+e 349.
 
 
 LaTeX Warning: Reference `fig:figure1' on page \thepage  undefined on input lin
-e 356.
+e 364.
 
 
 LaTeX Warning: Reference `fig:figure2' on page \thepage  undefined on input lin
-e 359.
+e 367.
 
 [2]
-LaTeX Font Info:    Trying to load font information for T1+txr on input line 41
-2.
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 42
+0.
  (C:\Users\meggo\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 4
-12.
+20.
 
 (C:\Users\meggo\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 1057) in paragraph at lines 444--448
+Underfull \hbox (badness 1057) in paragraph at lines 452--456
 \T1/ptm/m/n/10 (+20) For more in-for-ma-tion and links to in-struc-tions and re
 -
  []
 
 
 LaTeX Warning: Citation `unrealweb' on page \thepage  undefined on input line 5
-27.
+35.
 
 
-LaTeX Warning: Citation `smit54' on page \thepage  undefined on input line 527.
+LaTeX Warning: Citation `smit54' on page \thepage  undefined on input line 535.
 
 
 No file report_starter.bbl.
@@ -1138,35 +1138,87 @@ No file report_starter.bbl.
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[3] (report_starter.aux)
+[3]
+Overfull \vbox (5.5pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.66492pt too high) has occurred while \output is active []
+
+
+[4] (report_starter.aux)
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `report_starter.out' has not changed.
-(rerunfilecheck)             Checksum: C0E8091EB4DB55E2D1E9F29122BA5C00;3557.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `report_starter.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report_starter.out':
+(rerunfilecheck)             Before: C0E8091EB4DB55E2D1E9F29122BA5C00;3557
+(rerunfilecheck)             After:  A9F2BE25142C4F71ADC3A4057E0D6C43;3670.
  ) 
 Here is how much of TeX's memory you used:
- 24500 strings out of 478659
- 450598 string characters out of 2845921
+ 24514 strings out of 478659
+ 450740 string characters out of 2845921
  748307 words of memory out of 3000000
  41871 multiletter control sequences out of 15000+600000
- 469823 words of font info for 258 fonts, out of 8000000 for 9000
+ 469953 words of font info for 260 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,94p,1020b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
-rtcxr.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfo
-nts/t1xbtt.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/txfonts/t1xtt.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/helvetic/uhvb8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1
-/urw/helvetic/uhvro8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmb8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on report_starter.pdf (3 pages, 131544 bytes).
+
+pdfTeX warning (dest): name{table.12} has been referenced but does not exist, r
+eplaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.26} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.17} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.16} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.15} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.14} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.13} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.6} has been referenced but does not exis
+t, replaced by a fixed one
+
+{C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/U
+sers/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rt
+cxr.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfont
+s/t1xbtt.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/public/t
+xfonts/t1xtt.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
+helvetic/uhvb8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/helvetic/uhvro8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/times/utmb8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Users/meggo/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on report_starter.pdf (4 pages, 134119 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  59069 words of extra memory for PDF output out of 61914 (max. 10000000)
 
