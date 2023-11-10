@@ -136,7 +136,7 @@
 
 \frameT{Map Creation Pipeline} {
 	\begin{center}
-  		\includegraphics[width=.8\linewidth]{figures/map_pipeline.png}
+  		\includegraphics[width=0.8\linewidth]{figures/map_pipeline.png}
   	\end{center}
   	
   	\begin{multicols}{3}
@@ -152,6 +152,12 @@
     \end{multicols}
 }
 
+\frameT{Doom Builder Map}{
+ \begin{center}
+	\includegraphics[height=0.6\linewidth]{figures/image.png}
+ \end{center}
+}
+
 \frameT{Test Maps}{
 \begin{center}
 	\includegraphics[height=.25\linewidth]{figures/test_map_doom.png}
@@ -163,15 +169,28 @@
 }
  
  
-\frameT{Weapon Models}{
-\begin{center}
-	\includegraphics[height=.2\linewidth]{figures/shotgun.png}
-	\includegraphics[height=.2\linewidth]{figures/slug.png}
- \end{center}
- \begin{center}
-	\includegraphics[height=.2\linewidth]{figures/Sniper.png}
- \includegraphics[height=.2\linewidth]{figures/smg.png}
- \end{center}
+\frameT{Effects}{
+	\includegraphics[height=.4\linewidth]{figures/casingModel.png}
+ \begin{right}
+	\includegraphics[height=.4\linewidth]{figures/casingEject.png}
+ \end{right}
+} 
+
+\frameT{Effects}{
+ \begin{top}
+	\includegraphics[height=.18\linewidth]{figures/crystal1.png}
+        \includegraphics[height=.18\linewidth]{figures/crystal3.png}
+        \includegraphics[height=.18\linewidth]{figures/crystal5.png}
+        \includegraphics[height=.18\linewidth]{figures/crystal6.png}
+        \includegraphics[height=.18\linewidth]{figures/crystal7.png}
+ \end{top}
+\begin{top}
+	\includegraphics[height=.17\linewidth]{figures/crystalSolo.PNG}
+        \includegraphics[height=.17\linewidth]{figures/crystal2Solo.png}
+        \includegraphics[height=.17\linewidth]{figures/GlitterSolo.PNG}
+        \includegraphics[height=.17\linewidth]{figures/FlashSolo.PNG}
+        \includegraphics[height=.17\linewidth]{figures/Flash2Solo.PNG}
+\end{top}
 } 
 
 \frameT{Character Model}{
@@ -200,7 +219,7 @@
 \frameT{Demo}{
 %Demo of the player in the game environment.
   \begin{figure}[htbp]
-  \includegraphics[width=.5\linewidth,right]{figures/NewTest.png}
+  \includegraphics[width=\linewidth,right]{figures/NewTest.png}
   \end{figure}
 }
 
@@ -209,7 +228,8 @@
   \begin{itemize}
       \item Networking
       \item Various weapon related bugs
-      \item Designing issues on the Rat Model
+      \item Map lighting
+      \item Tying together the user interface and scoring
   \end{itemize}
 }
 
@@ -217,7 +237,6 @@
   \bigskip
   \begin{itemize}
       \item Player scores and win conditions
-	  \item Adding textures to Rat model and trying to smooth the design.
       \item General clean up of debugging and quality of life improvements.
       \item Finishing the second map.
   \end{itemize}
