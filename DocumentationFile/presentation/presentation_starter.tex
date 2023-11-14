@@ -74,7 +74,8 @@
     \item An enjoyment of classic arena shooters
     \begin{itemize}
       \item Doom
-      \item Quake
+      \item Quake 3 Arena
+      \item Unreal Tournament
       \end{itemize}
       \bigskip
       
@@ -116,15 +117,17 @@
 \frameT{Project Goals} {
   \bigskip
   \begin{itemize}
+  	\item Make a Working Techdemo:
       \item Networking 
       \begin{itemize}
           \item Hit detection
           \item Minor desync among clients
       \end{itemize}
       \bigskip
-      \item Multiple maps
+      \item A Map
       \begin{itemize}
           \item Works well with movement system
+          \item Designed to support teamplay and free-for-all
       \end{itemize}
       \bigskip
       \item Multiple weapons
@@ -152,6 +155,32 @@
     \end{multicols}
 }
 
+\section{Game Design}
+
+\frameT{Movement} {
+  \bigskip
+  \begin{itemize}
+  	  \item Bunny Hopping
+  	  \begin{itemize}
+  	  	\item Engine bug turned feature
+  	  	\item Lowering the skill floor
+  	  	\item Easy to learn, hard to master
+  	  	\item Makes moving around the map itself fun
+  	  	\bigskip
+  	  \end{itemize}
+  	  \item Wall Jumping
+      \begin{itemize}
+          \item Gives player utility
+          \item Boost of momentum to start a bhop
+          \item Can continue a bhop instead of slamming into a wall
+          \bigskip
+      \end{itemize}
+  \end{itemize}
+  \bigskip
+}
+
+\section{Mapping}
+
 \frameT{Doom Builder Map}{
  \begin{center}
 	\includegraphics[height=0.6\linewidth]{figures/image.png}
@@ -167,7 +196,36 @@
 	\includegraphics[height=.25\linewidth]{figures/test_map_unreal.png}
  \end{center}
 }
- 
+
+\frameT{Map Design} {
+  \bigskip
+  \begin{itemize}
+  	  \item Arena Shooter Map Design
+  	  \begin{itemize}
+  	  	\item Original multiplayer maps were converted from singleplayer
+  	  	\item Modders made maps designed exclusively for multiplayer
+  	  	\item Developers followed suit, exclusively multiplayer games emerge
+  	  	\bigskip
+  	  \end{itemize}
+  	  \item Philosophy
+      \begin{itemize}
+          \item Moving around the map should be smooth
+          \item Layout should be easy for the player to quickly learn
+          \item Areas of low and high interest
+          \bigskip
+      \end{itemize}
+      \item Layout
+      \begin{itemize}
+          \item Symmetrical layout to support multiple gamemodes
+          \item 'Figure-8' design encourages movement
+          \item Multiple areas of interest and connecting areas to encourage fights 
+          \bigskip
+      \end{itemize}
+  \end{itemize}
+  \bigskip
+}
+
+\section{Effects}
  
 \frameT{Effects}{
 	\includegraphics[height=.4\linewidth]{figures/casingModel.png}
@@ -193,12 +251,19 @@
 \end{top}
 } 
 
+\section{Modeling}
+
 \frameT{Character Model}{
 \begin{center}
-	\includegraphics[height=.5\linewidth]{figures/RatFront.png}
-	\includegraphics[height=.5\linewidth]{figures/RatBack.png}
+	\includegraphics[height=.25\linewidth]{figures/MouseModel.png}
+	\includegraphics[height=.25\linewidth]{figures/MouseModelBack.png}
+ \end{center}
+ \begin{center}
+ \includegraphics[height=.25\linewidth]{figures/MouseModelUnsmoothed.png}
  \end{center}
 } 
+
+\section{Networking}
 
 \frameT{Networking}{
 \begin{center}
@@ -216,6 +281,8 @@
  \end{center}
 }
 
+\section{Demo}
+
 \frameT{Demo}{
 %Demo of the player in the game environment.
   \begin{figure}[htbp]
@@ -223,22 +290,29 @@
   \end{figure}
 }
 
+\section{Difficulties}
+
 \frameT{Difficulties}{
   \bigskip
   \begin{itemize}
       \item Networking
+      \bigskip
       \item Various weapon related bugs
+      \bigskip
       \item Map lighting
-      \item Tying together the user interface and scoring
   \end{itemize}
 }
+
+\section{Conclusion}
 
 \frameT{Future Goals}{
   \bigskip
   \begin{itemize}
       \item Player scores and win conditions
+      \bigskip
       \item General clean up of debugging and quality of life improvements.
-      \item Finishing the second map.
+      \bigskip
+      \item More content (maps, weapons, gamemodes, etc.)
   \end{itemize}
 }
 %\Test Online Video!!!!
